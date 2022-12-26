@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { SSRHandler } from '@goldstack/template-ssr';
 
 import { connectWithCognito, performLogout } from 'user-management';
+
+import type { ClientAuthResult } from 'user-management';
+
 import { renderPage, hydrate } from './../render';
 import styles from './$index.module.css';
 
@@ -29,7 +32,11 @@ function parseJwt(token: string): any {
 }
 
 const Index = (props: { message?: string }): JSX.Element => {
-  const user = getLoggedInUser();
+  const [user, setUser] = useState<ClientAuthResult | undefined>(undefined);
+  useEffect(() => {
+    const user = getLoggedInUser();
+    setUser(user);
+  }, []);
   handleRedirectCallback();
   return (
     <>
