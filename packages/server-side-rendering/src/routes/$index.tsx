@@ -2,24 +2,44 @@ import React, { useState } from 'react';
 import { SSRHandler } from '@goldstack/template-ssr';
 
 import { renderPage, hydrate } from './../render';
-import Panel from './../components/Panel';
 import styles from './$index.module.css';
 
+import {
+  getLoggedInUser,
+  handleRedirectCallback,
+  loginWithRedirect,
+} from 'user-management';
+
 const Index = (props: { message: string }): JSX.Element => {
-  const [clicked, setClicked] = useState(false);
+  const user = getLoggedInUser();
+  handleRedirectCallback();
   return (
     <>
-      <div
-        onClick={() => {
-          alert('hi');
-          setClicked(true);
-          throw new Error('Havent seen this');
-        }}
-        className={`${styles.message}`}
-      >
-        {props.message}
+      <div className="container">
+        <div className="row">
+          <div className="col mt-4">
+            <div className="card">
+              <div className="card-body">
+                {!user && <>No user is signed in.</>}
+              </div>
+            </div>
+            <div className="mt-2 d-grid gap-2 d-md-block">
+              <button
+                type="button"
+                className="btn btn-primary"
+                onClick={() => {
+                  loginWithRedirect();
+                }}
+              >
+                Sign In
+              </button>
+              <button type="button" className="btn btn-info">
+                Register
+              </button>{' '}
+            </div>
+          </div>
+        </div>
       </div>
-      {clicked && <Panel />}
     </>
   );
 };

@@ -9578,6 +9578,7 @@ resolve@^1.20.0:
     ts-node-dev: ^2.0.0
     typescript: ^4.8.4
     typescript-plugin-css-modules: ^3.4.0
+    user-management: "workspace:^"
   languageName: unknown
   linkType: soft
 
@@ -10682,7 +10683,7 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"user-management@workspace:packages/user-management":
+"user-management@workspace:^, user-management@workspace:packages/user-management":
   version: 0.0.0-use.local
   resolution: "user-management@workspace:packages/user-management"
   dependencies:
