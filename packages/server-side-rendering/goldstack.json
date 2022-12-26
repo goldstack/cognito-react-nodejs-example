@@ -12,10 +12,6 @@
           "ANY /": {
             "function_name": "cognito-react-nodejs-example--__index",
             "route": "ANY /"
-          },
-          "ANY /posts": {
-            "function_name": "cognito-react-nodejs-example-posts",
-            "route": "ANY /posts"
           }
         },
         "lambdaNamePrefix": "cognito-react-nodejs-example",

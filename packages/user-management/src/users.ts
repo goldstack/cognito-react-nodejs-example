@@ -3,6 +3,7 @@ import {
   getEndpoint as templateGetEndpoint,
   CognitoManager,
   Endpoint,
+  signUpWithRedirect as templateSignUpWithRedirect,
   loginWithRedirect as templateLoginWithRedirect,
   handleRedirectCallback as templateHandleRedirectCallback,
   performLogout as templatePerformLogout,
@@ -27,6 +28,15 @@ export {
 
 export async function loginWithRedirect(deploymentName?: string) {
   return templateLoginWithRedirect({
+    goldstackConfig,
+    packageSchema,
+    deploymentsOutput,
+    deploymentName,
+  });
+}
+
+export async function signUpWithRedirect(deploymentName?: string) {
+  return templateSignUpWithRedirect({
     goldstackConfig,
     packageSchema,
     deploymentsOutput,
