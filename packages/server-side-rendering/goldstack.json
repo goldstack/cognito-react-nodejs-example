@@ -1,0 +1,30 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "server-side-rendering",
+  "template": "server-side-rendering",
+  "templateVersion": "0.1.9",
+  "configuration": {},
+  "deployments": [
+    {
+      "name": "prod",
+      "configuration": {
+        "lambdas": {
+          "ANY /": {
+            "function_name": "cognito-react-nodejs-example--__index",
+            "route": "ANY /"
+          },
+          "ANY /posts": {
+            "function_name": "cognito-react-nodejs-example-posts",
+            "route": "ANY /posts"
+          }
+        },
+        "lambdaNamePrefix": "cognito-react-nodejs-example",
+        "domain": "cognito-react-nodejs.examples.dev.goldstack.party",
+        "hostedZoneDomain": "dev.goldstack.party"
+      },
+      "awsUser": "awsUser",
+      "awsRegion": "us-west-2",
+      "tfStateKey": "server-side-rendering-prod-a222c21058e0d948bf15.tfstate"
+    }
+  ]
+}

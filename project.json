@@ -1,0 +1,21 @@
+{
+  "projectName": "cognito-react-nodejs-example",
+  "packages": [
+    {
+      "packageName": "server-side-rendering",
+      "templateReference": {
+        "templateName": "server-side-rendering"
+      }
+    },
+    {
+      "packageName": "user-management",
+      "templateReference": {
+        "templateName": "user-management"
+      }
+    }
+  ],
+  "rootTemplateReference": {
+    "templateName": "yarn-pnp-monorepo"
+  },
+  "createdAt": "2022-12-26T01:09:12.957Z"
+}

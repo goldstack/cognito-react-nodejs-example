@@ -1,0 +1,9 @@
+{
+  "remoteState": [
+    {
+      "user": "awsUser",
+      "terraformStateBucket": "goldstack-tfstate-037851a81a60cd55e1c60304176d0a6722ada6ff",
+      "terraformStateDynamoDBTable": "goldstack-tfstate-037851a81a60cd55e1c60304176d0a6722ada6ff-lock"
+    }
+  ]
+}
