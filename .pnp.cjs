@@ -1139,36 +1139,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-ssr", [\
-        ["npm:0.3.15", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-ssr-npm-0.3.15-c9eefb7313-d7c135bced.zip/node_modules/@goldstack/template-ssr/",\
+        ["npm:0.3.16", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-ssr-npm-0.3.16-5f4eb21655-00d28c2d97.zip/node_modules/@goldstack/template-ssr/",\
           "packageDependencies": [\
-            ["@goldstack/template-ssr", "npm:0.3.15"],\
+            ["@goldstack/template-ssr", "npm:0.3.16"],\
             ["@goldstack/infra", "npm:0.4.4"],\
             ["@goldstack/infra-aws", "npm:0.4.7"],\
-            ["@goldstack/template-ssr-server", "npm:0.3.15"],\
+            ["@goldstack/template-ssr-server", "npm:0.3.16"],\
             ["@goldstack/utils-aws-lambda", "npm:0.3.10"],\
             ["@goldstack/utils-esbuild", "npm:0.5.4"],\
             ["@goldstack/utils-package", "npm:0.4.4"],\
             ["@goldstack/utils-package-config-embedded", "npm:0.5.5"],\
             ["@goldstack/utils-template", "npm:0.4.4"],\
             ["@goldstack/utils-terraform", "npm:0.4.7"],\
+            ["@types/aws-lambda", "npm:8.10.88"],\
             ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:afbb10f15b570ef916fe662963bb39109de9b5c37d139bb93bd329699a2ad41cda1a31cb5ee8a74b3e0c39526a0c4f7f90eae4b5997e54627326396f635fe262#npm:18.2.0"],\
+            ["react-dom", "virtual:2a79c7904ade31f47bf103b7db6014ab7e8e23e2ff40bc913853b1a94c6ed19ef19c51cf9de2d3022f4ca9debec6977ade98c380602ca0bb12d08df4260a9e11#npm:18.2.0"],\
             ["source-map-support", "npm:0.5.21"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@goldstack/template-ssr-cli", [\
-        ["npm:0.3.17", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.17-1a755ea70c-2af43fbc4b.zip/node_modules/@goldstack/template-ssr-cli/",\
+        ["npm:0.3.18", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-ssr-cli-npm-0.3.18-76f70340d5-441e21ff45.zip/node_modules/@goldstack/template-ssr-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-ssr-cli", "npm:0.3.17"],\
+            ["@goldstack/template-ssr-cli", "npm:0.3.18"],\
             ["@goldstack/infra", "npm:0.4.4"],\
             ["@goldstack/infra-aws", "npm:0.4.7"],\
-            ["@goldstack/template-ssr", "npm:0.3.15"],\
-            ["@goldstack/template-ssr-server", "npm:0.3.15"],\
-            ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.12"],\
+            ["@goldstack/template-ssr", "npm:0.3.16"],\
+            ["@goldstack/template-ssr-server", "npm:0.3.16"],\
+            ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.13"],\
             ["@goldstack/utils-aws-lambda", "npm:0.3.10"],\
             ["@goldstack/utils-cli", "npm:0.3.4"],\
             ["@goldstack/utils-docker", "npm:0.4.4"],\
@@ -1188,13 +1189,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-ssr-server", [\
-        ["npm:0.3.15", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-npm-0.3.15-aeb52c4a39-be4c8361b5.zip/node_modules/@goldstack/template-ssr-server/",\
+        ["npm:0.3.16", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-npm-0.3.16-ae871d1521-73e907e6c4.zip/node_modules/@goldstack/template-ssr-server/",\
           "packageDependencies": [\
-            ["@goldstack/template-ssr-server", "npm:0.3.15"],\
+            ["@goldstack/template-ssr-server", "npm:0.3.16"],\
             ["@goldstack/infra", "npm:0.4.4"],\
             ["@goldstack/infra-aws", "npm:0.4.7"],\
-            ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.12"],\
+            ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.13"],\
             ["@goldstack/utils-aws-lambda", "npm:0.3.10"],\
             ["@goldstack/utils-esbuild", "npm:0.5.4"],\
             ["@goldstack/utils-package", "npm:0.4.4"],\
@@ -1202,9 +1203,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@goldstack/utils-sh", "npm:0.5.4"],\
             ["@goldstack/utils-template", "npm:0.4.4"],\
             ["@goldstack/utils-terraform", "npm:0.4.7"],\
-            ["lambda-compression", "npm:0.2.4"],\
+            ["@types/aws-lambda", "npm:8.10.88"],\
+            ["lambda-compression", "npm:0.2.5"],\
             ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:afbb10f15b570ef916fe662963bb39109de9b5c37d139bb93bd329699a2ad41cda1a31cb5ee8a74b3e0c39526a0c4f7f90eae4b5997e54627326396f635fe262#npm:18.2.0"],\
+            ["react-dom", "virtual:2a79c7904ade31f47bf103b7db6014ab7e8e23e2ff40bc913853b1a94c6ed19ef19c51cf9de2d3022f4ca9debec6977ade98c380602ca0bb12d08df4260a9e11#npm:18.2.0"],\
             ["source-map-support", "npm:0.5.21"],\
             ["static-file-mapper", "npm:0.3.5"]\
           ],\
@@ -1212,10 +1214,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-ssr-server-compile-bundle", [\
-        ["npm:0.3.12", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-compile-bundle-npm-0.3.12-afbb10f15b-1c5f18dd7f.zip/node_modules/@goldstack/template-ssr-server-compile-bundle/",\
+        ["npm:0.3.13", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-ssr-server-compile-bundle-npm-0.3.13-2a79c7904a-ebf5fab302.zip/node_modules/@goldstack/template-ssr-server-compile-bundle/",\
           "packageDependencies": [\
-            ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.12"],\
+            ["@goldstack/template-ssr-server-compile-bundle", "npm:0.3.13"],\
             ["@goldstack/infra", "npm:0.4.4"],\
             ["@goldstack/infra-aws", "npm:0.4.7"],\
             ["@goldstack/utils-aws-lambda", "npm:0.3.10"],\
@@ -1225,10 +1227,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@goldstack/utils-sh", "npm:0.5.4"],\
             ["@goldstack/utils-template", "npm:0.4.4"],\
             ["@goldstack/utils-terraform", "npm:0.4.7"],\
+            ["@types/aws-lambda", "npm:8.10.88"],\
             ["esbuild", "npm:0.15.5"],\
-            ["lambda-compression", "npm:0.2.4"],\
+            ["lambda-compression", "npm:0.2.5"],\
             ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:afbb10f15b570ef916fe662963bb39109de9b5c37d139bb93bd329699a2ad41cda1a31cb5ee8a74b3e0c39526a0c4f7f90eae4b5997e54627326396f635fe262#npm:18.2.0"],\
+            ["react-dom", "virtual:2a79c7904ade31f47bf103b7db6014ab7e8e23e2ff40bc913853b1a94c6ed19ef19c51cf9de2d3022f4ca9debec6977ade98c380602ca0bb12d08df4260a9e11#npm:18.2.0"],\
             ["source-map-support", "npm:0.5.21"],\
             ["static-file-mapper-build", "npm:0.3.5"]\
           ],\
@@ -1236,10 +1239,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-user-management", [\
-        ["npm:0.1.4", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-user-management-npm-0.1.4-4a3aa42a34-bd105a799e.zip/node_modules/@goldstack/template-user-management/",\
+        ["npm:0.1.5", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-user-management-npm-0.1.5-6322e6ba0c-f0dd979130.zip/node_modules/@goldstack/template-user-management/",\
           "packageDependencies": [\
-            ["@goldstack/template-user-management", "npm:0.1.4"],\
+            ["@goldstack/template-user-management", "npm:0.1.5"],\
             ["@goldstack/infra", "npm:0.4.4"],\
             ["@goldstack/infra-aws", "npm:0.4.7"],\
             ["@goldstack/utils-esbuild", "npm:0.5.4"],\
@@ -1255,11 +1258,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-user-management-cli", [\
-        ["npm:0.1.4", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.4-4c418a748b-4f1dc41bb6.zip/node_modules/@goldstack/template-user-management-cli/",\
+        ["npm:0.1.5", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.5-e89427cd8c-1252456de0.zip/node_modules/@goldstack/template-user-management-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-user-management-cli", "npm:0.1.4"],\
-            ["@goldstack/template-user-management", "npm:0.1.4"],\
+            ["@goldstack/template-user-management-cli", "npm:0.1.5"],\
+            ["@goldstack/template-user-management", "npm:0.1.5"],\
             ["@goldstack/utils-cli", "npm:0.3.4"],\
             ["@goldstack/utils-docker", "npm:0.4.4"],\
             ["@goldstack/utils-log", "npm:0.3.4"],\
@@ -1291,10 +1294,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/utils-aws-http-api-local", [\
-        ["npm:0.3.15", {\
-          "packageLocation": "./.yarn/cache/@goldstack-utils-aws-http-api-local-npm-0.3.15-ab0073ea77-17e9232f47.zip/node_modules/@goldstack/utils-aws-http-api-local/",\
+        ["npm:0.3.16", {\
+          "packageLocation": "./.yarn/cache/@goldstack-utils-aws-http-api-local-npm-0.3.16-f1896a4598-f70ab6c55f.zip/node_modules/@goldstack/utils-aws-http-api-local/",\
           "packageDependencies": [\
-            ["@goldstack/utils-aws-http-api-local", "npm:0.3.15"],\
+            ["@goldstack/utils-aws-http-api-local", "npm:0.3.16"],\
             ["@goldstack/utils-aws-lambda", "npm:0.3.10"],\
             ["@types/aws-lambda", "npm:8.10.88"],\
             ["cookie", "npm:0.4.1"],\
@@ -5679,17 +5682,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["esbuild-ignore-with-comments-plugin", [\
-        ["npm:0.3.5", {\
-          "packageLocation": "./.yarn/cache/esbuild-ignore-with-comments-plugin-npm-0.3.5-77986db1bb-b8d11c3ae7.zip/node_modules/esbuild-ignore-with-comments-plugin/",\
+        ["npm:0.3.6", {\
+          "packageLocation": "./.yarn/cache/esbuild-ignore-with-comments-plugin-npm-0.3.6-e6b92a6477-0203bd7550.zip/node_modules/esbuild-ignore-with-comments-plugin/",\
           "packageDependencies": [\
-            ["esbuild-ignore-with-comments-plugin", "npm:0.3.5"]\
+            ["esbuild-ignore-with-comments-plugin", "npm:0.3.6"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:791539f8ac7615299056a1f01924e3cdf19b4b9f52a0b7b96795cc7ea49506c9f025adc7cbf750920fe942cd41e89f8bb2b136da30859762377623d4f76eb44f#npm:0.3.5", {\
-          "packageLocation": "./.yarn/__virtual__/esbuild-ignore-with-comments-plugin-virtual-2a089aaf91/0/cache/esbuild-ignore-with-comments-plugin-npm-0.3.5-77986db1bb-b8d11c3ae7.zip/node_modules/esbuild-ignore-with-comments-plugin/",\
+        ["virtual:791539f8ac7615299056a1f01924e3cdf19b4b9f52a0b7b96795cc7ea49506c9f025adc7cbf750920fe942cd41e89f8bb2b136da30859762377623d4f76eb44f#npm:0.3.6", {\
+          "packageLocation": "./.yarn/__virtual__/esbuild-ignore-with-comments-plugin-virtual-34b57dfe1f/0/cache/esbuild-ignore-with-comments-plugin-npm-0.3.6-e6b92a6477-0203bd7550.zip/node_modules/esbuild-ignore-with-comments-plugin/",\
           "packageDependencies": [\
-            ["esbuild-ignore-with-comments-plugin", "virtual:791539f8ac7615299056a1f01924e3cdf19b4b9f52a0b7b96795cc7ea49506c9f025adc7cbf750920fe942cd41e89f8bb2b136da30859762377623d4f76eb44f#npm:0.3.5"],\
+            ["esbuild-ignore-with-comments-plugin", "virtual:791539f8ac7615299056a1f01924e3cdf19b4b9f52a0b7b96795cc7ea49506c9f025adc7cbf750920fe942cd41e89f8bb2b136da30859762377623d4f76eb44f#npm:0.3.6"],\
             ["@types/esbuild", null],\
             ["esbuild", "npm:0.15.5"]\
           ],\
@@ -8873,10 +8876,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["lambda-compression", [\
-        ["npm:0.2.4", {\
-          "packageLocation": "./.yarn/cache/lambda-compression-npm-0.2.4-3d4c3b8038-0a75a63a36.zip/node_modules/lambda-compression/",\
+        ["npm:0.2.5", {\
+          "packageLocation": "./.yarn/cache/lambda-compression-npm-0.2.5-882ba60112-7273290f86.zip/node_modules/lambda-compression/",\
           "packageDependencies": [\
-            ["lambda-compression", "npm:0.2.4"]\
+            ["lambda-compression", "npm:0.2.5"],\
+            ["@types/aws-lambda", "npm:8.10.88"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10691,11 +10695,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:791539f8ac7615299056a1f01924e3cdf19b4b9f52a0b7b96795cc7ea49506c9f025adc7cbf750920fe942cd41e89f8bb2b136da30859762377623d4f76eb44f#npm:18.2.0", {\
-          "packageLocation": "./.yarn/__virtual__/react-dom-virtual-e70c03cfe7/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
+        ["virtual:2a79c7904ade31f47bf103b7db6014ab7e8e23e2ff40bc913853b1a94c6ed19ef19c51cf9de2d3022f4ca9debec6977ade98c380602ca0bb12d08df4260a9e11#npm:18.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-dom-virtual-b01ee76a63/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
           "packageDependencies": [\
-            ["react-dom", "virtual:791539f8ac7615299056a1f01924e3cdf19b4b9f52a0b7b96795cc7ea49506c9f025adc7cbf750920fe942cd41e89f8bb2b136da30859762377623d4f76eb44f#npm:18.2.0"],\
-            ["@types/react", "npm:18.0.15"],\
+            ["react-dom", "virtual:2a79c7904ade31f47bf103b7db6014ab7e8e23e2ff40bc913853b1a94c6ed19ef19c51cf9de2d3022f4ca9debec6977ade98c380602ca0bb12d08df4260a9e11#npm:18.2.0"],\
+            ["@types/react", null],\
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.2.0"],\
             ["scheduler", "npm:0.23.0"]\
@@ -10706,11 +10710,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:afbb10f15b570ef916fe662963bb39109de9b5c37d139bb93bd329699a2ad41cda1a31cb5ee8a74b3e0c39526a0c4f7f90eae4b5997e54627326396f635fe262#npm:18.2.0", {\
-          "packageLocation": "./.yarn/__virtual__/react-dom-virtual-030696ab1c/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
+        ["virtual:791539f8ac7615299056a1f01924e3cdf19b4b9f52a0b7b96795cc7ea49506c9f025adc7cbf750920fe942cd41e89f8bb2b136da30859762377623d4f76eb44f#npm:18.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-dom-virtual-e70c03cfe7/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
           "packageDependencies": [\
-            ["react-dom", "virtual:afbb10f15b570ef916fe662963bb39109de9b5c37d139bb93bd329699a2ad41cda1a31cb5ee8a74b3e0c39526a0c4f7f90eae4b5997e54627326396f635fe262#npm:18.2.0"],\
-            ["@types/react", null],\
+            ["react-dom", "virtual:791539f8ac7615299056a1f01924e3cdf19b4b9f52a0b7b96795cc7ea49506c9f025adc7cbf750920fe942cd41e89f8bb2b136da30859762377623d4f76eb44f#npm:18.2.0"],\
+            ["@types/react", "npm:18.0.15"],\
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.2.0"],\
             ["scheduler", "npm:0.23.0"]\
@@ -11188,9 +11192,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/server-side-rendering/",\
           "packageDependencies": [\
             ["server-side-rendering", "workspace:packages/server-side-rendering"],\
-            ["@goldstack/template-ssr", "npm:0.3.15"],\
-            ["@goldstack/template-ssr-cli", "npm:0.3.17"],\
-            ["@goldstack/utils-aws-http-api-local", "npm:0.3.15"],\
+            ["@goldstack/template-ssr", "npm:0.3.16"],\
+            ["@goldstack/template-ssr-cli", "npm:0.3.18"],\
+            ["@goldstack/utils-aws-http-api-local", "npm:0.3.16"],\
             ["@goldstack/utils-esbuild", "npm:0.5.4"],\
             ["@jest-mock/express", "npm:1.4.5"],\
             ["@jest/transform", "npm:28.1.3"],\
@@ -11210,7 +11214,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["concurrently", "npm:7.3.0"],\
             ["date-fns", "npm:2.28.0"],\
             ["esbuild", "npm:0.15.5"],\
-            ["esbuild-ignore-with-comments-plugin", "virtual:791539f8ac7615299056a1f01924e3cdf19b4b9f52a0b7b96795cc7ea49506c9f025adc7cbf750920fe942cd41e89f8bb2b136da30859762377623d4f76eb44f#npm:0.3.5"],\
+            ["esbuild-ignore-with-comments-plugin", "virtual:791539f8ac7615299056a1f01924e3cdf19b4b9f52a0b7b96795cc7ea49506c9f025adc7cbf750920fe942cd41e89f8bb2b136da30859762377623d4f76eb44f#npm:0.3.6"],\
             ["esbuild-ssr-css-modules-plugin", "virtual:d985bbf96987baae9137fca63c8f601565bb14b0a274c12733da9811507ce7e6493c7db46315daec5af5f7f5f801ad43a389efcef8a55ab5112929852a3476c3#npm:0.1.4"],\
             ["find-free-port", "npm:2.0.0"],\
             ["jest", "virtual:b8f8ac6c66cd88f8bd6fe74b1e475065cacac61c53bf9daa026c3a7b3cde3fa5d353c6e22bf19f392824d905b527bbec88082b5882384b4436b9e502d1dfad71#npm:28.1.0"],\
@@ -12592,8 +12596,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/user-management/",\
           "packageDependencies": [\
             ["user-management", "workspace:packages/user-management"],\
-            ["@goldstack/template-user-management", "npm:0.1.4"],\
-            ["@goldstack/template-user-management-cli", "npm:0.1.4"],\
+            ["@goldstack/template-user-management", "npm:0.1.5"],\
+            ["@goldstack/template-user-management-cli", "npm:0.1.5"],\
             ["@types/jest", "npm:29.0.1"],\
             ["@types/node", "npm:18.7.13"],\
             ["aws-sdk", "npm:2.1222.0"],\
