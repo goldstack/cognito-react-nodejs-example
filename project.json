@@ -1,5 +1,5 @@
 {
-  "projectName": "cognito-react-nodejs-example",
+  "projectName": "",
   "packages": [
     {
       "packageName": "server-side-rendering",
@@ -17,5 +17,5 @@
   "rootTemplateReference": {
     "templateName": "yarn-pnp-monorepo"
   },
-  "createdAt": "2022-12-26T01:09:12.957Z"
+  "createdAt": "2022-12-26T03:15:06.558Z"
 }

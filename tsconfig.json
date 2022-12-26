@@ -30,10 +30,10 @@
   "include": [],
   "references": [
     {
-      "path": "packages/server-side-rendering"
+      "path": "../utils/packages/utils-nodemonx"
     },
     {
-      "path": "packages/user-management"
+      "path": "../utils/packages/utils-typescript-references"
     }
   ]
 }

@@ -1,5 +1,4 @@
 {
-  "name": "cognito-react-nodejs-example",
   "private": true,
   "sideEffects": false,
   "workspaces": [
