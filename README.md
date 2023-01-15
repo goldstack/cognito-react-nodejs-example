@@ -105,7 +105,6 @@ yarn watch
 
 A server will be started on your local machine that allows you to test the application.
 
-
 For more information, see the Goldstack documentation:
 
 - [User Management / Development (Client)](https://docs.goldstack.party/docs/templates/user-management#3-development-client-1)
