@@ -5,6 +5,7 @@ distLambda/
 goldstackLocal/
 coverage/
 node_modules/
+packages/server-side-rendering/static/
 .next/
 .terraform/
 *.tfstate
