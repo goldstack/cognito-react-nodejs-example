@@ -8,19 +8,19 @@
   ],
   "scripts": {
     "build": "yarn clean && yarn compile",
-    "clean": "yarn workspaces foreach run clean",
+    "clean": "yarn workspaces foreach --all run clean",
     "compile": "yarn fix-project-references-all && tsc --build",
-    "coverage": "yarn workspaces foreach --topological-devs run coverage",
-    "deploy": "yarn workspaces foreach run deploy \"$@\"",
+    "coverage": "yarn workspaces foreach --all run coverage",
+    "deploy": "yarn workspaces foreach --all run deploy \"$@\"",
     "fix-project-references": "utils-typescript-references --skipRoot",
     "fix-project-references-all": "utils-typescript-references",
     "format": "prettier --loglevel log --config .prettierrc.json --write .",
     "format-check": "prettier --loglevel log --config .prettierrc.json --check .",
-    "infra": "yarn workspaces foreach run infra \"$@\"",
+    "infra": "yarn workspaces foreach --all run infra \"$@\"",
     "lint": "eslint . --ext .js,.ts,.tsx,.json,.yml,.yaml",
     "lint-fix": "eslint . --ext .js,.ts,.tsx,.json,.yml,.yaml --fix",
     "package:doctor": "yarn dlx @yarnpkg/doctor .",
-    "test-ci": "yarn workspaces foreach -v run test-ci",
+    "test-ci": "yarn workspaces foreach --all -v run test-ci",
     "test-watch": "nodemonx --watch . --exec 'yarn test-ci'"
   },
   "resolutions": {
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@goldstack/nodemonx": "0.4.5",
-    "@goldstack/utils-typescript-references": "0.3.4",
+    "@goldstack/utils-typescript-references": "^0.3.13",
     "@types/jest": "^29.0.1",
     "@types/node": "^18.7.13",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
@@ -45,5 +45,5 @@
     "react": "^18.2.0",
     "typescript": "^4.8.4"
   },
-  "packageManager": "yarn@3.2.4"
+  "packageManager": "yarn@4.6.0"
 }
