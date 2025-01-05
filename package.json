@@ -24,6 +24,8 @@
     "test-watch": "nodemonx --watch . --exec 'yarn test-ci'"
   },
   "resolutions": {
+    "@babel/traverse": "7.23.2",
+    "generic-names": "4.0.0",
     "json5": "2.2.2"
   },
   "devDependencies": {
